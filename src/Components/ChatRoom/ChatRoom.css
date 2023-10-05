@@ -1,0 +1,65 @@
+.containerChatTodo{
+    position: relative;
+    
+}
+
+
+
+.containerChat {
+    display: flex;
+    flex-direction: column;
+    margin-bottom:5em;
+}
+
+.mensagem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.45em;
+    gap: .45em;
+}
+
+.enviado p {
+    color: white;
+    background: #43ef7a;
+    padding: 1em;
+    border-radius: 1em;
+    align-self: flex-end;
+}
+
+.enviado {
+    flex-direction: row-reverse;
+}
+
+.recebendo p {
+    background: #43d5ef;
+    padding: 1em;
+    border-radius: 1em;
+   
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 2px 5px;
+}
+.inputBtn{
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+    width: 100%;
+}
+.inputBtn input{
+    border-radius: 0.45em;
+    width: 90%;
+    padding: 1em;
+    border: none;
+}
+.inputBtn button{
+    padding: 1em;
+    margin-left: 0.22em;
+    border: none;
+    background-color: #43ef7a;
+    border-radius: 0.25em;
+    color: white;
+}
